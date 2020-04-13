@@ -2,7 +2,8 @@ import React from 'react';
 import Logo from './assets/svg/developer.svg'
 
 const Home = (props) => {
-    return (
+    
+    return(
         <div className="container mx-auto flex items-center justify-center flex-wrap md:flex-no-wrap h-full">
             <div className="px-5 sm:px-10 pt-10 w-full md:w-1/2">
                 <img className="align-middle" src={Logo} alt="Developer" />

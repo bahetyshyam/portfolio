@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
-import MenuIcon from './assets/svg/menu.svg'
+import React, { useState} from 'react';
+import MenuIcon from './assets/svg/menu.svg';
+import SideBar from './SideBar';
 
 const Header = (props) => {
-
     const [isOpen, setIsOpen] = useState(false);
+
+    const toggleIsOpen = () => {
+        setIsOpen(!isOpen)
+    }
 
     return (
         <header className="sticky top-0 w-full" id="header">
@@ -24,15 +28,7 @@ const Header = (props) => {
                         </ul>
                     </nav>
 
-                    {/* Sidebar Code below */}
-                    <div className={(isOpen ? 'block' : 'hidden') + ' fixed top-0 right-0 w-2/3 h-screen bg-blue-700'}></div>
-                    <ul className={(isOpen ? 'block' : 'hidden') + ' absolute top-0 right-0 flex flex-col items-end mt-12 text-gray-200'}>
-                        <li className="px-4 py-2">ABOUT</li>
-                        <li className="px-4 py-2">WORK</li>
-                        <li className="px-4 py-2">CONTACT</li>
-                    </ul>
-
-
+                    {isOpen && <SideBar toggleIsOpen={toggleIsOpen}/> }
 
                 </div>
             </div>
