@@ -6,11 +6,11 @@ import Footer from './Footer';
 function App() {
   return (
     <Fragment>
-      <Header />
-      <main className="flex-1 items-center">
-        <Home />
+      <Header/>
+      <main className="flex-1">
+        <Home/>
       </main>
-      <Footer />
+      <Footer/>
     </Fragment>
 
   );
