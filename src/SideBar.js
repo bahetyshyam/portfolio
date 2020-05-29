@@ -25,9 +25,12 @@ const SideBar = (props) => {
         <Link to="/about">
           <li className="px-4 py-2">ABOUT</li>
         </Link>
-
-        <li className="px-4 py-2">WORK</li>
-        <li className="px-4 py-2">CONTACT</li>
+        <Link to="/about">
+          <li className="px-4 py-2">WORK</li>
+        </Link>
+        <Link to="/about">
+          <li className="px-4 py-2">CONTACT</li>
+        </Link>
       </ul>
     </Fragment>
   );
