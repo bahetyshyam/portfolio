@@ -1,18 +1,26 @@
-import React, { Fragment } from 'react';
-import Header from './Header';
-import Home from './Home';
-import Footer from './Footer';
+import React from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import Header from "./Header";
+import Home from "./Home";
+import Footer from "./Footer";
+import Work from "./Work";
+import Contact from "./Contact";
+import AboutMe from "./About";
 
 function App() {
   return (
-    <Fragment>
-      <Header/>
-      <main className="flex-1">
-        <Home/>
+    <Router>
+      <Header />
+      <main className="flex-1 flex flex-col items-center justify-center">
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/work" exact component={Work} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/about" exact component={AboutMe} />
+        </Switch>
       </main>
-      <Footer/>
-    </Fragment>
-
+      <Footer />
+    </Router>
   );
 }
 
