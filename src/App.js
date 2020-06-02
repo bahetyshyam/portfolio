@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className="flex-1 flex flex-col items-center justify-center">
+      <main className="container mx-auto flex-1 flex items-center">
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/work" exact component={Work} />

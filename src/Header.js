@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 w-full" id="header">
       <div className="w-full bg-blue-700">
-        <div className=" relative container mx-auto mt-0 px-5 py-4 ">
+        <div className="relative container mx-auto mt-0 px-5 py-4 ">
           <nav className="md:flex md:flex-row md:justify-between">
             <div className="flex flex-row justify-between align-middle">
               <Link to="/">
