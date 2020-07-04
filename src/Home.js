@@ -18,7 +18,7 @@ const Home = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laboriosam
           ipsa distinctio tempora provident consequuntur numquam dicta
           repellendus, eos vero, autem incidunt quos cum fugiat sint veniam aut
-          accusamus asperiores!
+          accusamus asperiores! Hello
         </p>
         <div className="mt-5 flex flex-wrap sm:flex-no-wrap justify-start align-middle">
           <Link to="/about">
