@@ -1,9 +1,9 @@
 import React from "react";
 
 const Contact = () => {
-  const submitForm = (ev) => {
+  const submitForm = (ev: React.FormEvent<HTMLFormElement>) => {
     ev.preventDefault();
-    const form = ev.target;
+    const form = ev.target as HTMLFormElement;
     const data = new FormData(form);
     fetch("https://formspree.io/mjvawvqv", {
       headers: {
@@ -25,7 +25,7 @@ const Contact = () => {
           form.reset();
         }
       })
-      .catch((error) => {
+      .catch(() => {
         alert(
           "Oops. An error occured. Please check your internet connection or refresh "
         );
@@ -60,7 +60,7 @@ const Contact = () => {
         <div className="mb-4">
           <label className="block text-xl mb-2">Message</label>
           <textarea
-            rows="4"
+            rows={4}
             className="w-full shadow appearance-none border px-4 py-2 focus:outline-none focus:border-blue-600"
             name="message"
             required={true}

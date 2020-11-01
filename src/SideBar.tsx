@@ -1,12 +1,17 @@
-import React, { Fragment, useRef, useEffect } from "react";
+import React, { Fragment, useRef, useEffect, FunctionComponent } from "react";
 import { Link } from "react-router-dom";
 
-const SideBar = (props) => {
-  const sidebar = useRef(null);
+interface IProps {
+  toggleIsOpen: () => void;
+}
+
+const SideBar: FunctionComponent<IProps> = (props) => {
+  const sidebar = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    function handleClickOutside(event) {
-      if (!event.target.contains(sidebar.current)) props.toggleIsOpen();
+    function handleClickOutside(event: MouseEvent) {
+      if (!(event.target as HTMLElement).contains(sidebar.current))
+        props.toggleIsOpen();
     }
 
     document.addEventListener("click", handleClickOutside);

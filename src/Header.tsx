@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import MenuIcon from "./assets/svg/menu.svg";
 import SideBar from "./SideBar";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header: FunctionComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleIsOpen = () => {
@@ -17,11 +17,7 @@ const Header = () => {
           <nav className="md:flex md:flex-row md:justify-between">
             <div className="flex flex-row justify-between align-middle">
               <Link to="/">
-                <span
-                  className="text-gray-200 tracking-wider font-semibold text-lg"
-                  href="#"
-                  alt="Logo"
-                >
+                <span className="text-gray-200 tracking-wider font-semibold text-lg">
                   SHYAM BAHETY
                 </span>
               </Link>
@@ -37,18 +33,18 @@ const Header = () => {
             <ul className="hidden md:flex md:flex-row text-gray-200">
               <li className="pr-5 tracking-wide">
                 <Link to="/about">
-                  <span href="#">ABOUT</span>
+                  <span>ABOUT</span>
                 </Link>
               </li>
               <li className="pr-5 tracking-wide">
                 <Link to="/work">
-                  <span href="#">WORK</span>
+                  <span>WORK</span>
                 </Link>
               </li>
               {/* <li className="pr-5"><a href="#">Three</a></li> */}
               <li className="tracking-wide">
                 <Link to="/contact">
-                  <span href="#">CONTACT</span>
+                  <span>CONTACT</span>
                 </Link>
               </li>
             </ul>
