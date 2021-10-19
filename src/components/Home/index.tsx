@@ -14,11 +14,10 @@ const Home = () => {
           Hi, I'm Shyam Bahety
         </h1>
         <p className="mt-3 text-base ">
-          I am a full stack developer and a freelancer who is enthusiastic about
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laboriosam
-          ipsa distinctio tempora provident consequuntur numquam dicta
-          repellendus, eos vero, autem incidunt quos cum fugiat sint veniam aut
-          accusamus asperiores! Hello
+          I am a Full Stack Developer who is enthusiastic about new tech and is
+          always excited to venture into collaborating with amazing people in
+          the community. I love to travel and get away on weekends to explore
+          new places, trek hills and mountains and interact with new people.
         </p>
         <div className="mt-5 flex flex-wrap sm:flex-no-wrap justify-start align-middle">
           <Link to="/about">
