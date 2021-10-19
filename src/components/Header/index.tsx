@@ -1,6 +1,6 @@
 import React, { useState, FunctionComponent } from "react";
-import MenuIcon from "./assets/svg/menu.svg";
-import SideBar from "./SideBar";
+import MenuIcon from "../../assets/svg/menu.svg";
+import SideBar from "../SideBar";
 import { Link } from "react-router-dom";
 
 const Header: FunctionComponent = () => {
