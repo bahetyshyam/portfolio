@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact | Shyam Bahety";
+  }, []);
   const submitForm = (ev: React.FormEvent<HTMLFormElement>) => {
     ev.preventDefault();
     const form = ev.target as HTMLFormElement;

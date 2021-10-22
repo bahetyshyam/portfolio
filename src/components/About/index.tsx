@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Experience from "./Experience";
+import Skills from "./Skills";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "About | Shyam Bahety";
+  }, []);
   return (
     <div className="flex items-center flex-col w-full mt-10">
       <div className="max-w-4xl leading-8 px-5 py-5">
@@ -26,22 +31,8 @@ const About = () => {
           better and performant products.
         </div>
 
-        <div className="text-2xl font-semibold mt-8 my-3">Skills</div>
-        <div>
-          <ul className="list-disc list-inside">
-            <li>ReactJS</li>
-            <li>TypeScript/JavaScript8</li>
-            <li>HTML/CSS</li>
-            <li>RESTful API's</li>
-            <li>Data management - Redux</li>
-            <li>NodeJs</li>
-            <li>ExpressJS</li>
-            <li>Unit testing</li>
-            <li>C#/.NetCore</li>
-            <li>Python</li>
-            <li>MySQL/MongoDB</li>
-          </ul>
-        </div>
+        <Experience />
+        <Skills />
       </div>
     </div>
   );

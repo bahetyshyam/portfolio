@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo from "../../assets/svg/developer.svg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Shyam Bahety | Full Stack Developer";
+  }, []);
   return (
     <div className="flex items-center justify-center flex-wrap md:flex-no-wrap">
       <div className="px-5 py-10 w-full md:w-1/2">
