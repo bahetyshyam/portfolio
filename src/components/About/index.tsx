@@ -18,11 +18,11 @@ const About = () => {
           technologies.
         </div>
         <div className="my-3">
-          I passed out of engineering from JSS Academy of Technical Education.
-          During my college I worked on multiple projects which interested me
-          and that journey has slowly made me evolve into a Full Stack Developer
-          over time. You can visit the "Work" section to have a look at some of
-          the projects that I have worked on.
+          I graduated from JSS Academy of Technical Education as a Software
+          Engineer. During my college, I worked on multiple projects which
+          interested me and that journey has slowly made me evolve into a Full
+          Stack Developer over time. You can visit the "Work" section to have a
+          look at some of the projects that I have worked on.
         </div>
         <div className="my-3">
           I'm currently working at Betsol and helping the organization build a
