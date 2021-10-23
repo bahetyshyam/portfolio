@@ -9,7 +9,7 @@ const Skills = () => {
       <div>
         <ul className="list-disc list-inside">
           <li>ReactJS</li>
-          <li>TypeScript/JavaScript8</li>
+          <li>TypeScript/JavaScript</li>
           <li>HTML/CSS</li>
           <li>RESTful API's</li>
           <li>Data management - Redux</li>
