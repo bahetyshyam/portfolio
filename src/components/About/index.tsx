@@ -13,22 +13,22 @@ const About = () => {
           About me
         </h2>
         <div className="my-3">
-          Hello once again. I'm Shyam, a Full Stack Developer from Bengaluru
-          India. I love to work on both on the front end as well as back end
-          technologies.
+          Hello once again. I'm Shyam, a Full Stack Developer from Bengaluru,
+          India. I’m inclined towards tech and love working on front end as well
+          as back end technologies.
         </div>
         <div className="my-3">
-          I graduated from JSS Academy of Technical Education as a Software
-          Engineer. During my college, I worked on multiple projects which
-          interested me and that journey has slowly made me evolve into a Full
-          Stack Developer over time. You can visit the "Work" section to have a
-          look at some of the projects that I have worked on.
+          Having graduated with a Information Science Engineering degree from
+          JSSATE, I’ve always been interested in various nuances of Software and
+          Development. I’ve also worked on multiple projects which has shaped me
+          into a Full Stack Developer. Some of them can be viewed under the
+          ‘Work’ section.
         </div>
         <div className="my-3">
-          I'm currently working at Betsol and helping the organization build a
-          Backup application which can be used my millions of users very soon.
-          In the past I have also interned at many places helping them build
-          better and performant products.
+          I'm currently working at BETSOL, contributing towards building a
+          Backup application which can be used my millions of users. I come with
+          a previous experience of having interned at organisations where I’ve
+          helped build better and performant products.
         </div>
 
         <Experience />
