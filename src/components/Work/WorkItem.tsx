@@ -16,9 +16,15 @@ const WorkItem: React.FunctionComponent<IProps> = ({ projectDetail }) => {
         </div>
       </a>
       <div className="flex justify-between items-center mt-3">
-        <div className="font-semibold text-xl sm:text-sm lg:text-xl text-blue-700">
-          {projectDetail.name}
-        </div>
+        <a
+          href={projectDetail.projectUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="font-semibold text-xl sm:text-sm lg:text-xl text-blue-700">
+            {projectDetail.name}
+          </div>
+        </a>
         <div>
           <a
             href={projectDetail.githubUrl}
