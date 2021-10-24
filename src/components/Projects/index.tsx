@@ -7,6 +7,7 @@ import RandomQuoteGeneratorImage from "../../assets/images/Random Quote Generato
 import RickAndMortyImage from "../../assets/images/Rick and Morty.png";
 import WeatherAppImage from "../../assets/images/Weather App.png";
 import WhatsAppCloneImage from "../../assets/images/WhatsApp Clone.png";
+import YesMaybeNoImage from "../../assets/images/YesMaybeNo.png";
 
 export interface ProjectDetail {
   imgUrl: string;
@@ -27,7 +28,7 @@ const projectDetails: ProjectDetail[] = [
       "https://github.com/bahetyshyam/web-app-automated-attendance-system",
   },
   {
-    imgUrl: "https://via.placeholder.com/1920x1080",
+    imgUrl: YesMaybeNoImage,
     name: "YesMaybeNo",
     description:
       "A mobile app which lets you create groups and events among friends and respond Yes/Maybe/No.",
@@ -93,8 +94,8 @@ const Projects = () => {
         Projects
       </div>
       <div className="flex items-start flex-wrap -mx-5">
-        {projectDetails.map((item) => (
-          <WorkItem projectDetail={item} />
+        {projectDetails.map((item, index) => (
+          <WorkItem projectDetail={item} key={index} />
         ))}
       </div>
     </div>
