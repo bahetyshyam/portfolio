@@ -83,14 +83,14 @@ const projectDetails: ProjectDetail[] = [
   },
 ];
 
-const Work = () => {
+const Projects = () => {
   useEffect(() => {
-    document.title = "Work | Shyam Bahety";
+    document.title = "Projects | Shyam Bahety";
   }, []);
   return (
     <div className="w-full mt-10 leading-8 px-5 py-5">
       <div className="text-4xl sm:text-5xl text-blue-700 leading-tight font-semibold text-center">
-        Work
+        Projects
       </div>
       <div className="flex items-start flex-wrap -mx-5">
         {projectDetails.map((item) => (
@@ -101,4 +101,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

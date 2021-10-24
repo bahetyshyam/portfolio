@@ -37,8 +37,8 @@ const Header: FunctionComponent = () => {
                 </Link>
               </li>
               <li className="pr-5 tracking-wide">
-                <Link to="/work">
-                  <span>WORK</span>
+                <Link to="/projects">
+                  <span>PROJECTS</span>
                 </Link>
               </li>
               {/* <li className="pr-5"><a href="#">Three</a></li> */}

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Experience from "./Experience";
 import Skills from "./Skills";
 
@@ -21,12 +22,15 @@ const About = () => {
           Having graduated with a Information Science Engineering degree from
           JSSATE, I’ve always been interested in various nuances of Software and
           Development. I’ve also worked on multiple projects which has shaped me
-          into a Full Stack Developer. Some of them can be viewed under the
-          ‘Work’ section.
+          into a Full Stack Developer. Some of them can be viewed under the{" "}
+          <Link to="/work" className="text-blue-700">
+            Projects
+          </Link>{" "}
+          section.
         </div>
         <div className="my-3">
           I'm currently working at BETSOL, contributing towards building a
-          Backup application which can be used my millions of users. I come with
+          Backup application which can be used by millions of users. I come with
           a previous experience of having interned at organisations where I’ve
           helped build better and performant products.
         </div>
