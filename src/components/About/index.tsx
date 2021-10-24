@@ -23,7 +23,7 @@ const About = () => {
           JSSATE, I’ve always been interested in various nuances of Software and
           Development. I’ve also worked on multiple projects which has shaped me
           into a Full Stack Developer. Some of them can be viewed under the{" "}
-          <Link to="/work" className="text-blue-700">
+          <Link to="/projects" className="text-blue-700">
             Projects
           </Link>{" "}
           section.
