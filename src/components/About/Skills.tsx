@@ -9,16 +9,16 @@ const Skills = () => {
       <div>
         <ul className="list-disc list-inside">
           <li>ReactJS</li>
-          <li>TypeScript/JavaScript</li>
-          <li>HTML/CSS</li>
-          <li>RESTful API's</li>
+          <li>VueJS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>ElectronJS</li>
           <li>Data management - Redux</li>
           <li>NodeJs</li>
           <li>ExpressJS</li>
           <li>Unit testing</li>
-          <li>C#/.NetCore</li>
-          <li>Python</li>
-          <li>MySQL/MongoDB</li>
         </ul>
       </div>
     </>

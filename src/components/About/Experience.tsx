@@ -11,13 +11,29 @@ interface ExperienceItem {
 
 const experienceItems: ExperienceItem[] = [
   {
+    title: "Software Development Engineer - UI ",
+    duration: "Dec 2021 - Present",
+    companyName: "CommerceIQ",
+    companyURL: "https://commerceiq.ai/",
+    location: "Bengaluru, KA",
+    contentItems: [
+      "CommerceIQ works on providing Intelligent automation for consumer brands to win in retail E-Commerce channels like Amazon, Walmart, Target, etc.",
+      "Contributed to the front-end web app development in a major section of the organization's product.",
+      "Developed and delivered high-stakes features such as Advertising Campaign Management of Walmart, Target, etc.to the customers which resulted in 80% of them renewing their contracts.",
+      "Built and curated the development of Campaign Creation of Amazon and Walmart features which helped us increase our customer base by 120%.",
+      "Enhanced and engineered multiple reusable components which are configuration driven, i.e the components behave differently based on the configuration.",
+      "Received recognition and award for quick delivery of a product which enabled the company to partner with Walmart and become their official partner for advertisement tech platforms.",
+      "Revamping the authentication system of the official product which is being used in the market for more than 6 years",
+    ],
+  },
+  {
     title: "Full Stack Developer",
-    duration: "Aug 2020 - Present",
+    duration: "Aug 2020 - Dec 2021",
     companyName: "Betsol Pvt. Ltd.",
     companyURL: "https://www.betsol.com/",
     location: "Bengaluru, KA",
     contentItems: [
-      "Maintaining and optimizing the user interface for a backup application using React (JS + TS) & Electron, while maximizing the code coverage to 80%",
+      "Maintained and optimized the user interface for Rebit,a backup application using React (JS + TS) & Electron, while maximizing the code coverage to 80%.",
       "Fabricated and overhauled the complete UI, integrated it with FluentUI library and converted 70% of codebase from JavaScript to TypeScript",
       "Implemented multiple new features for complicated UI components.",
       "Streamlined and built a system to handle user configurations globally and locally among users.",

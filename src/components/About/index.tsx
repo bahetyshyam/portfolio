@@ -14,14 +14,14 @@ const About = () => {
           About me
         </h2>
         <div className="my-3">
-          Hello once again. I'm Shyam, a Full Stack Developer from Bengaluru,
-          India. I’m inclined towards tech and love working on front end as well
-          as back end technologies.
+          Hello once again. I'm Shyam, a Software Developer from Bengaluru,
+          India. I'm inclined towards tech and I primarily work on front end
+          development.
         </div>
         <div className="my-3">
           Having graduated with a Information Science Engineering degree from
-          JSSATE, I’ve always been interested in various nuances of Software and
-          Development. I’ve also worked on multiple projects which has shaped me
+          JSSATE, I've always been interested in various nuances of Software and
+          Development. I've also worked on multiple projects which has shaped me
           into a Full Stack Developer. Some of them can be viewed under the{" "}
           <Link to="/projects" className="text-blue-700">
             Projects
@@ -29,10 +29,11 @@ const About = () => {
           section.
         </div>
         <div className="my-3">
-          I'm currently working at BETSOL, contributing towards building a
-          Backup application which can be used by millions of users. I come with
-          a previous experience of having interned at organisations where I’ve
-          helped build better and performant products.
+          I'm currently working at CommerceIQ as a SDE UI, contributing to
+          products which help consumer brands win in retail e-commerce channels
+          like Amazon, Walmart, Target, etc. I come with previous experiences of
+          freelancing, working and interning at organizations where I've helped
+          build better and performant products.
         </div>
 
         <Experience />
