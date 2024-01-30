@@ -19,6 +19,14 @@ const About = () => {
           development.
         </div>
         <div className="my-3">
+          I'm currently a student at University of Florida pursuing my Master's
+          in Computer Science. Having worked in the industry full-time for more
+          than 3 years, interning and freelancing, I have equipped skills in
+          Full Stack Development across various tech stacks. I am currently open
+          to <b>Summer Internships (2024)</b> and{" "}
+          <b>Full Time Positions (Jan 2025)</b>.
+        </div>
+        <div className="my-3">
           Having graduated with a Information Science Engineering degree from
           JSSATE, I've always been interested in various nuances of Software and
           Development. I've also worked on multiple projects which has shaped me
@@ -27,13 +35,6 @@ const About = () => {
             Projects
           </Link>{" "}
           section.
-        </div>
-        <div className="my-3">
-          I'm currently working at CommerceIQ as a SDE UI, contributing to
-          products which help consumer brands win in retail e-commerce channels
-          like Amazon, Walmart, Target, etc. I come with previous experiences of
-          freelancing, working and interning at organizations where I've helped
-          build better and performant products.
         </div>
 
         <Experience />

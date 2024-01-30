@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
+import { RouteComponentProps } from "react-router-dom";
 
-const Contact = () => {
+type UseHistoryType = RouteComponentProps["history"];
+
+interface IProps {
+  history: UseHistoryType;
+}
+const Contact = (props: IProps) => {
   useEffect(() => {
     document.title = "Contact | Shyam Bahety";
   }, []);
@@ -8,7 +14,7 @@ const Contact = () => {
     ev.preventDefault();
     const form = ev.target as HTMLFormElement;
     const data = new FormData(form);
-    fetch("https://formspree.io/mjvawvqv", {
+    fetch("https://formspree.io/f/mvoeznaa", {
       headers: {
         Accept: "application/json",
       },
@@ -21,6 +27,7 @@ const Contact = () => {
             "Thank you for reaching out to me. I will get back to you soon."
           );
           form.reset();
+          props.history.push("/");
         } else {
           alert(
             "Oops. An error occured. Please check your internet connection or refresh "
@@ -40,7 +47,7 @@ const Contact = () => {
     <div className="flex items-center w-full">
       <div className="w-full px-5 py-5">
         <p className="text-blue-600 text-3xl md:text-4xl font-semibold leading-tight">
-          Have any queries or intrested in a project? Contact me.
+          Have any queries or interested in a project? Contact me.
         </p>
         <form className="mt-6" onSubmit={submitForm}>
           <div className="mb-4">

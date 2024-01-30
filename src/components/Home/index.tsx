@@ -17,20 +17,32 @@ const Home = () => {
           Hi, I'm Shyam Bahety
         </h1>
         <p className="mt-3 text-base ">
-          I am a Software Developer who is enthusiastic about new tech and is
-          always excited to venture into collaborating with amazing people in
-          the community. I love to travel and get away on weekends to explore
-          new places, trek hills and mountains and interact with new people.
+          I am a Software Development Engineer who is enthusiastic about new
+          tech and is always excited to venture into collaborating with amazing
+          people in the community. I am looking for{" "}
+          <b>Summer Internships (2024)</b> and{" "}
+          <b>Full Time Opportunities (Jan 2025)</b>. Please reach out to me at{" "}
+          <a className="text-blue-700" href="mailto:shyambahety98@gmail.com">
+            shyambahety98@gmail.com
+          </a>
+          .
         </p>
         <div className="mt-5 flex flex-wrap sm:flex-no-wrap justify-start align-middle">
+          <a
+            href="Shyam Bahety Resume.pdf"
+            download={""}
+            className="px-4 py-2 rounded-sm text-sm sm:text-base font-semibold shadow-lg bg-blue-700 text-gray-100 border-solid border-2 border-blue-700 mr-4"
+          >
+            Resume
+          </a>
           <Link to="/about">
-            <div className="px-4 py-2 rounded-sm text-sm sm:text-base font-semibold shadow-lg bg-blue-700 text-gray-100 border-solid border-2 border-blue-700 mr-4">
+            <div className="px-4 py-2 rounded-sm text-sm sm:text-base font-semibold shadow-lg  bg-gray-100 text-blue-700 border-solid border-2 border-blue-700 mr-4">
               About Me
             </div>
           </Link>
 
           <Link to="contact">
-            <div className="px-4 py-2 rounded-sm text-sm sm:text-base font-semibold shadow-lg bg-gray-100 text-blue-700 border-solid border-2 border-blue-700">
+            <div className="px-4 py-2 rounded-sm text-sm sm:text-base font-semibold shadow-lg bg-blue-700 text-gray-100 border-solid border-2 border-blue-700">
               Contact Me
             </div>
           </Link>

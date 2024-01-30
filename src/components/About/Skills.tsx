@@ -12,12 +12,32 @@ const Skills = () => {
           <li>VueJS</li>
           <li>JavaScript</li>
           <li>TypeScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>HTML5</li>
+          <li>CSS/Sass</li>
+          <li>C3.js</li>
           <li>ElectronJS</li>
-          <li>Data management - Redux</li>
+          <li>Redux</li>
           <li>NodeJs</li>
           <li>ExpressJS</li>
+          <li>React Native</li>
+          <li>C#</li>
+          <li>.NET Core</li>
+          <li>Python</li>
+          <li>Go</li>
+          <li>Java</li>
+          <li>C++</li>
+          <li>AWS</li>
+          <li>Azure</li>
+          <li>Google Cloud Platform</li>
+          <li>Docker</li>
+          <li>Git</li>
+          <li>Jira</li>
+          <li>Jenkins</li>
+          <li>Linux</li>
+          <li>Flask</li>
+          <li>SQL</li>
+          <li>MongoDB</li>
+          <li>MS SQL</li>
           <li>Unit testing</li>
         </ul>
       </div>

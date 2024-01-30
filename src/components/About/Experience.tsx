@@ -12,18 +12,16 @@ interface ExperienceItem {
 const experienceItems: ExperienceItem[] = [
   {
     title: "Software Development Engineer - UI ",
-    duration: "Dec 2021 - Present",
+    duration: "Dec 2021 - Aug 2023",
     companyName: "CommerceIQ",
     companyURL: "https://commerceiq.ai/",
     location: "Bengaluru, KA",
     contentItems: [
-      "CommerceIQ works on providing Intelligent automation for consumer brands to win in retail E-Commerce channels like Amazon, Walmart, Target, etc.",
-      "Contributed to the front-end web app development in a major section of the organization's product.",
-      "Developed and delivered high-stakes features such as Advertising Campaign Management of Walmart, Target, etc.to the customers which resulted in 80% of them renewing their contracts.",
-      "Built and curated the development of Campaign Creation of Amazon and Walmart features which helped us increase our customer base by 120%.",
-      "Enhanced and engineered multiple reusable components which are configuration driven, i.e the components behave differently based on the configuration.",
-      "Received recognition and award for quick delivery of a product which enabled the company to partner with Walmart and become their official partner for advertisement tech platforms.",
-      "Revamping the authentication system of the official product which is being used in the market for more than 6 years",
+      "Played a key role in the front-end web app development for a significant section of the organization's product, elevating user experience and functionality.",
+      "Spearheaded the development and successful delivery of high-impact features, including Advertising Campaign Management for retail giants like Walmart and Target. This strategic initiative led to an impressive 80% contract renewal rate among customers.",
+      "Pioneered the conception and development of Campaign Creation features for industry leaders like Amazon and Walmart, resulting in a remarkable 120% expansion of our customer base.",
+      "Engineered configurable, reusable components, enhancing adaptability and functionality based on dynamic configurations.",
+      "Received recognition and an award for the swift delivery of a product, instrumental in establishing a partnership with Walmart. The success of this project led to CommerceIQ's official designation as partners for advertisement tech platforms.",
     ],
   },
   {
@@ -33,12 +31,12 @@ const experienceItems: ExperienceItem[] = [
     companyURL: "https://www.betsol.com/",
     location: "Bengaluru, KA",
     contentItems: [
-      "Maintained and optimized the user interface for Rebit,a backup application using React (JS + TS) & Electron, while maximizing the code coverage to 80%.",
-      "Fabricated and overhauled the complete UI, integrated it with FluentUI library and converted 70% of codebase from JavaScript to TypeScript",
-      "Implemented multiple new features for complicated UI components.",
-      "Streamlined and built a system to handle user configurations globally and locally among users.",
-      "Designed a state management library to handle users pausing/resuming their backup, increasing performance by 2x.",
-      "Building a notification framework to handle, queue and track the notifications sent to the UI.",
+      "Managed and optimized the user interface of Rebit, a backup application developed using React (JavaScript + TypeScript) & ElectronJS. Achieved a substantial 80% code coverage to ensure robust and reliable software quality.",
+      "Engineered a comprehensive User Interface overhaul, integrating FluentUI library and transitioning 70% of the codebase from JavaScript to TypeScript for enhanced functionality and maintainability.",
+      "Executed the implementation of multiple new features for intricate UI components, enhancing overall functionality and user experience.",
+      "Engineered a system for global and local user configuration management, ensuring efficient customization for individuals.",
+      "Devised a state management library enabling users to seamlessly pause and resume backups, leading to a notable 2x boost in performance.",
+      "Constructed a notification framework responsible for handling, queuing, and tracking notifications sent to the User Interface, ensuring an organized and efficient notification system.",
     ],
   },
   {
@@ -59,7 +57,7 @@ const experienceItems: ExperienceItem[] = [
     companyURL: "https://www.betsol.com/",
     location: "Bengaluru, KA",
     contentItems: [
-      "Worked on an Automation DevOps tool called LeTo. After working on it, the project had negligible bugs and performed 1.3x better.",
+      "Led User Interface enhancements on the Automation DevOps tool, LeTo, resulting in a seamless deployment and achieving a remarkable 1.3x performance improvement.",
       "Developed a new feature for a client and built RESTful API's using NodeJS.",
     ],
   },
