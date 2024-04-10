@@ -26,7 +26,7 @@ const projectDetails: ProjectDetail[] = [
     description:
       "This web app lets you browse through the most popular, trending, newest and top rated movies.",
     projectUrl: "https://movies.shyambahety.com/",
-    githubUrl: "https://github.com/bahetyshyam/clumio-movies",
+    githubUrl: "https://github.com/bahetyshyam/shyam-movies",
   },
   {
     imgUrl: Sorting,
