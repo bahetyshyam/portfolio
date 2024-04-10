@@ -8,6 +8,8 @@ import RickAndMortyImage from "../../assets/images/Rick and Morty.png";
 import WeatherAppImage from "../../assets/images/Weather App.png";
 import WhatsAppCloneImage from "../../assets/images/WhatsApp Clone.png";
 import YesMaybeNoImage from "../../assets/images/YesMaybeNo.png";
+import Sorting from "../../assets/images/Sorting.png";
+import Movies from "../../assets/images/Movies.png";
 
 export interface ProjectDetail {
   imgUrl: string;
@@ -19,13 +21,20 @@ export interface ProjectDetail {
 
 const projectDetails: ProjectDetail[] = [
   {
-    imgUrl: AutomatedAttendanceSystemImage,
-    name: "Automated Attendance System",
+    imgUrl: Movies,
+    name: "Trending Movies",
     description:
-      "This web app marks the attendance of a class with just a click of a photo of the whole class. Try finding my photo and upload it to see my attendance marked ;)",
-    projectUrl: "https://automated-attendance-system.netlify.app/",
-    githubUrl:
-      "https://github.com/bahetyshyam/web-app-automated-attendance-system",
+      "This web app lets you browse through the most popular, trending, newest and top rated movies.",
+    projectUrl: "https://movies.shyambahety.com/",
+    githubUrl: "https://github.com/bahetyshyam/clumio-movies",
+  },
+  {
+    imgUrl: Sorting,
+    name: "Sorting Visualizer",
+    description:
+      "Ever wondered how sorting looks like visually? Click to see how sorting algorithms sort arrays through animations.",
+    projectUrl: "https://sorting-viz.shyambahety.com/",
+    githubUrl: "https://github.com/bahetyshyam/sorting-app",
   },
   {
     imgUrl: YesMaybeNoImage,
@@ -34,6 +43,15 @@ const projectDetails: ProjectDetail[] = [
       "A mobile app which lets you create groups and events among friends and respond Yes/Maybe/No.",
     projectUrl: "https://github.com/bahetyshyam/YesMaybeNo/",
     githubUrl: "https://github.com/bahetyshyam/YesMaybeNo",
+  },
+  {
+    imgUrl: AutomatedAttendanceSystemImage,
+    name: "Automated Attendance System",
+    description:
+      "This web app marks the attendance of a class with just a click of a photo of the whole class. Try finding my photo and upload it to see my attendance marked ;)",
+    projectUrl: "https://automated-attendance-system.netlify.app/",
+    githubUrl:
+      "https://github.com/bahetyshyam/web-app-automated-attendance-system",
   },
   {
     imgUrl: RandomQuoteGeneratorImage,
