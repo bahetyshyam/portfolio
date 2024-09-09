@@ -19,9 +19,9 @@ const Home = () => {
         <p className="mt-3 text-base ">
           I am a Software Development Engineer who is enthusiastic about new
           tech and is always excited to venture into collaborating with amazing
-          people in the community. I am looking for{" "}
-          <b>Summer Internships (2024)</b> and{" "}
-          <b>Full Time Opportunities (Jan 2025)</b>. Please reach out to me at{" "}
+          people in the community. I am looking for <b>Spring Co-op's (2025)</b>{" "}
+          and <b>Full Time Opportunities (Jan 2025)</b>. Please reach out to me
+          at{" "}
           <a className="text-blue-700" href="mailto:shyambahety98@gmail.com">
             shyambahety98@gmail.com
           </a>
