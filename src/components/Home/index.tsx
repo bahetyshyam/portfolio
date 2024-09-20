@@ -20,7 +20,7 @@ const Home = () => {
           I am a Software Development Engineer who is enthusiastic about new
           tech and is always excited to venture into collaborating with amazing
           people in the community. I am looking for <b>Spring Co-op's (2025)</b>{" "}
-          and <b>Full Time Opportunities (Jan 2025)</b>. Please reach out to me
+          and <b>Full Time Opportunities (May 2025)</b>. Please reach out to me
           at{" "}
           <a className="text-blue-700" href="mailto:shyambahety98@gmail.com">
             shyambahety98@gmail.com
