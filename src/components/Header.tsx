@@ -105,8 +105,8 @@ export default function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 glass transition-all duration-300 ${
-          isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        className={`md:hidden absolute top-full left-0 right-0 bg-[var(--color-dark-900)] border-b border-[var(--color-dark-700)] shadow-2xl transition-all duration-300 ${
+          isMobileMenuOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'
         }`}
       >
         <nav className="flex flex-col p-6 gap-4">
